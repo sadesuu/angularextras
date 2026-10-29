@@ -1,8 +1,9 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { SubidaComponents } from './components/subida-components/subida-components';
 
 @Component({
-  imports: [RouterOutlet],
+  imports: [SubidaComponents],
   selector: 'app-root',
   styleUrl: './app.css',
   templateUrl: './app.html',
